@@ -1,12 +1,10 @@
-numpy
-pandas
-scikit-learn
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
 opencv-python
 ultralytics
 streamlit>=1.32.0
 folium
 networkx
 joblib
-requests
-geopy
 altair==4.2.2
