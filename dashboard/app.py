@@ -1,6 +1,10 @@
 import streamlit as st
 import os
+import sys
+import os
 
+# Add project root directory to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Import project modules
 from prediction.predict_disaster import predict_disaster
 from routing.evacuation import run_evacuation
