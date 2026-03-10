@@ -9,3 +9,4 @@ networkx
 joblib
 requests
 geopy
+altair==4.2.2
